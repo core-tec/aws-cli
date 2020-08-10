@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.12.0
 RUN apk -v --update --no-cache add \
         python3 \
         && \
